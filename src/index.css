@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-school-navy: #073b73;
+  --color-school-navy-dark: #04284f;
+
+  --color-school-burgundy: #8d1235;
+  --color-school-burgundy-dark: #680b27;
+
+  --color-school-gold: #f2c318;
+  --color-school-orange: #f39a32;
+  --color-school-green: #159447;
+
+  --color-school-cream: #f8f7f3;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #f8f7f3;
+}

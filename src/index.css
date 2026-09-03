@@ -23,4 +23,211 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background: #f8f7f3;
+  overflow-x: clip;
+}
+
+.landing-intro {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background: #fff;
+}
+
+.landing-intro__site {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.landing-intro__site > section {
+  min-height: 100%;
+}
+
+.landing-intro__overlay {
+  position: absolute;
+  z-index: 10;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.8);
+  pointer-events: none;
+  transition: opacity 800ms ease 100ms;
+  will-change: opacity;
+}
+
+.landing-intro__sequence {
+  position: absolute;
+  z-index: 40;
+  inset: 0;
+}
+
+.landing-intro__title {
+  position: absolute;
+  z-index: 25;
+  left: 5vw;
+  bottom: 12vh;
+  opacity: 0;
+  transform: translateY(18px);
+  pointer-events: none;
+  transition: opacity 650ms ease, transform 650ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.landing-intro__title--visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.landing-intro__title h1 {
+  max-width: 900px;
+  margin: 0;
+  color: white;
+  font-size: clamp(3rem, 5.2vw, 5.8rem);
+  font-weight: 900;
+  line-height: 1.02;
+  letter-spacing: -0.04em;
+}
+
+.landing-intro__title h1 span {
+  display: block;
+  color: var(--color-school-gold);
+}
+
+.logo-animation {
+  position: absolute;
+  z-index: 30;
+  inset: 0;
+  pointer-events: none;
+  transition: opacity 700ms ease;
+  will-change: opacity;
+}
+
+.logo-animation__frame {
+  position: absolute;
+  top: var(--logo-top);
+  right: var(--logo-right);
+  width: var(--logo-width);
+  aspect-ratio: 3 / 2;
+}
+
+.logo-animation__rest,
+.logo-animation__cross {
+  position: absolute;
+  display: block;
+  user-select: none;
+  will-change: transform;
+}
+
+.logo-animation__rest {
+  z-index: 2;
+  height: 100%;
+  transform: translate3d(var(--rest-start-x), var(--rest-start-y), 0);
+  transition: transform 1.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.logo-animation__cross {
+  z-index: 1;
+  height: auto;
+  transform: translate3d(var(--cross-start-x), var(--cross-start-y), 0)
+    rotate(var(--cross-start-rotation)) scale(var(--cross-start-scale));
+  transform-origin: 50% 50%;
+  transition: transform 1.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.landing-intro__sequence--active .logo-animation__cross {
+  transform: translate3d(0, 0, 0) rotate(0deg) scale(1);
+}
+
+.landing-intro__sequence--active .logo-animation__rest {
+  transform: translate3d(0, 0, 0);
+}
+
+.landing-intro__sequence--fading .logo-animation,
+.landing-intro__sequence--revealing .logo-animation {
+  opacity: 0;
+}
+
+.landing-intro__sequence--fading .landing-intro__overlay,
+.landing-intro__sequence--revealing .landing-intro__overlay {
+  opacity: 0;
+}
+
+.landing-intro__sequence--fading .landing-intro__title,
+.landing-intro__sequence--revealing .landing-intro__title {
+  opacity: 0;
+  transform: translateY(18px);
+  transition-duration: 400ms;
+}
+
+.intro-navigation {
+  opacity: 0;
+  transform: translate3d(0, -15px, 0);
+  pointer-events: none;
+  transition: opacity 500ms ease, transform 500ms ease;
+  will-change: transform, opacity;
+}
+
+.hero-reveal-content {
+  opacity: 0;
+  transform: translate3d(0, 15px, 0);
+  visibility: hidden;
+  transition: opacity 500ms ease, transform 500ms ease, visibility 0s linear 500ms;
+  will-change: transform, opacity;
+}
+
+html[data-intro-revealing] .intro-navigation {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  pointer-events: auto;
+}
+
+html[data-intro-revealing] .landing-intro__site {
+  pointer-events: auto;
+}
+
+html[data-intro-revealing] .hero-reveal-content {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  visibility: visible;
+  transition: opacity 500ms ease, transform 500ms ease;
+}
+
+@media (max-width: 767px) {
+  .logo-animation__frame {
+    top: var(--mobile-logo-top);
+    right: var(--mobile-logo-right);
+    width: var(--mobile-logo-width);
+  }
+
+  .logo-animation__cross {
+    --cross-start-x: var(--mobile-cross-start-x);
+    --cross-start-y: var(--mobile-cross-start-y);
+  }
+
+  .logo-animation__rest {
+    --rest-start-x: var(--mobile-rest-start-x);
+  }
+
+}
+
+@media (max-width: 768px) {
+  .landing-intro__title {
+    left: 6vw;
+    right: 6vw;
+    bottom: 9vh;
+  }
+
+  .landing-intro__title h1 {
+    font-size: clamp(2.2rem, 10vw, 3.5rem);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .logo-animation__cross,
+  .logo-animation__rest {
+    animation: none !important;
+    transform: translate3d(0, 0, 0) rotate(0deg) scale(1);
+    transition: none;
+  }
 }

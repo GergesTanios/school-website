@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { ArrowRight, ChevronLeft, ChevronRight, Users } from 'lucide-react'
+import { ArrowRight, Users } from 'lucide-react'
 
 import { Link } from 'react-router-dom'
 
@@ -61,7 +61,7 @@ function Hero() {
       <div className="absolute inset-0 bg-gradient-to-r from-school-navy-dark/95 via-school-navy-dark/75 to-school-navy/20" />
 
       {/* CONTENT */}
-      <div className="relative z-10 mx-auto w-full max-w-7xl px-6 py-24 lg:px-8">
+      <div className="hero-reveal-content relative z-10 mx-auto w-full max-w-7xl px-6 py-24 lg:px-8">
         <div className="max-w-3xl">
 
           <div className="mb-6 inline-flex rounded-full border border-school-gold/40 bg-black/20 px-5 py-2.5 text-sm font-bold text-school-gold backdrop-blur-md">
@@ -104,23 +104,23 @@ function Hero() {
       {/* LEFT ARROW */}
       <button
         onClick={previousSlide}
-        className="absolute left-5 top-1/2 z-20 hidden -translate-y-1/2 rounded-full border border-white/20 bg-black/25 p-3 text-white backdrop-blur-md transition hover:bg-black/50 md:block"
+        className="hidden"
         aria-label="Previous slide"
       >
-        <ChevronLeft size={24} />
+        {/* <ChevronLeft size={24} /> */}
       </button>
 
       {/* RIGHT ARROW */}
       <button
         onClick={nextSlide}
-        className="absolute right-5 top-1/2 z-20 hidden -translate-y-1/2 rounded-full border border-white/20 bg-black/25 p-3 text-white backdrop-blur-md transition hover:bg-black/50 md:block"
+        className="hidden"
         aria-label="Next slide"
       >
-        <ChevronRight size={24} />
+        {/* <ChevronRight size={24} /> */}
       </button>
 
       {/* DOTS */}
-      <div className="absolute bottom-8 left-1/2 z-20 flex -translate-x-1/2 gap-2">
+      <div className="hero-reveal-content absolute bottom-8 left-1/2 z-20 flex -translate-x-1/2 gap-2">
         {slides.map((_, index) => (
           <button
             key={index}

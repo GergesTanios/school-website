@@ -13,11 +13,15 @@ const navLinks = [
   { label: 'Contact', href: '#contact' },
 ]
 
-function Navbar() {
+type NavbarProps = {
+  introAware?: boolean
+}
+
+function Navbar({ introAware = false }: NavbarProps) {
   const [open, setOpen] = useState(false)
 
   return (
-    <header className="fixed left-0 top-0 z-50 w-full border-b border-white/10 bg-school-navy-dark/95 backdrop-blur-xl">
+    <header className={`fixed left-0 top-0 z-50 w-full border-b border-white/10 bg-school-navy-dark/95 backdrop-blur-xl ${introAware ? 'intro-navigation' : ''}`}>
 
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3 lg:px-8">
 

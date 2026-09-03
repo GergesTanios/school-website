@@ -10,7 +10,7 @@ import {
 
 import AlumniSection from '../components/AlumniSection'
 import Footer from '../components/Footer'
-import Hero from '../components/Hero'
+import LandingIntro from '../components/LandingIntro'
 import Navbar from '../components/Navbar'
 import Counter from '../components/Counter'
 
@@ -98,10 +98,10 @@ const news = [
 function Home() {
   return (
     <>
-      <Navbar />
+      <Navbar introAware />
 
       <main>
-        <Hero />
+        <LandingIntro />
 
         {/* ABOUT */}
         <section id="about" className="bg-white py-24">

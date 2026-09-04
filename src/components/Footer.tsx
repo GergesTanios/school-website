@@ -5,6 +5,7 @@ import {
   Phone,
 } from 'lucide-react'
 import logo from '../assets/lycee-st-elie-logo.png'
+import { Link } from 'react-router-dom'
 
 import {
   FaFacebookF,
@@ -54,7 +55,7 @@ function Footer() {
             <h3 className="mb-5 font-bold text-white">School</h3>
 
             <div className="flex flex-col gap-3 text-sm">
-              <a href="#about">About Us</a>
+              <Link to="/about">About Us</Link>
               <a href="#academics">Academics</a>
               <a href="#admissions">Admissions</a>
               <a href="#student-life">Student Life</a>

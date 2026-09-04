@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom'
 
 const navLinks = [
   { label: 'Home', href: '#home' },
-  { label: 'About', href: '#about' },
+  { label: 'About', href: '/about', route: true },
   { label: 'Academics', href: '#academics' },
   { label: 'Student Life', href: '#student-life' },
   { label: 'News & Events', href: '#news' },
   { label: 'Alumni', href: '#alumni' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Contact', href: '/contact', route: true },
 ]
 
 type NavbarProps = {
@@ -59,7 +59,13 @@ function Navbar({ introAware = false }: NavbarProps) {
 
         <nav className="hidden items-center gap-7 lg:flex">
           {navLinks.map((link) => (
-            <a
+            link.route ? <Link
+              key={link.label}
+              to={link.href}
+              className="text-sm font-medium text-slate-200 transition hover:text-white"
+            >
+              {link.label}
+            </Link> : <a
               key={link.label}
               href={link.href}
               className={`text-sm font-medium transition ${
@@ -94,7 +100,14 @@ function Navbar({ introAware = false }: NavbarProps) {
         <div className="border-t border-white/10 bg-school-navy-dark px-6 py-5 lg:hidden">
           <div className="flex flex-col gap-4">
             {navLinks.map((link) => (
-              <a
+              link.route ? <Link
+                key={link.label}
+                to={link.href}
+                onClick={() => setOpen(false)}
+                className="text-slate-200"
+              >
+                {link.label}
+              </Link> : <a
                 key={link.label}
                 href={link.href}
                 onClick={() => setOpen(false)}

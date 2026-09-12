@@ -1,0 +1,610 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "academics": "Academics",
+    "student_life": "Student Life",
+    "news_events": "News & Events",
+    "alumni": "Alumni",
+    "contact": "Contact",
+    "lyce_saintelie_home": "$t(school.name) home",
+    "main_navigation": "Main navigation",
+    "admissions": "Admissions",
+    "toggle_navigation": "Toggle navigation",
+    "mobile_navigation": "Mobile navigation",
+    "language": "Language"
+  },
+  "school": {
+    "name": "Lycée Saint-Elie",
+    "location": "Darbessim · Saida · Lebanon"
+  },
+  "footer": {
+    "back_to_top": "Back to top",
+    "learn_grow_lead": "Learn. Grow. Lead.",
+    "inspiring_students_to_learn_grow_lead_and": "Inspiring students to learn, grow, lead, and remain connected to their school community for life.",
+    "school": "School",
+    "about_us": "About Us",
+    "academics": "Academics",
+    "admissions": "Admissions",
+    "student_life": "Student Life",
+    "news_events": "News & Events",
+    "alumni": "Alumni",
+    "alumni_network": "Alumni Network",
+    "update_my_profile": "Update My Profile",
+    "alumni_stories": "Alumni Stories",
+    "reunions": "Reunions",
+    "mentorship": "Mentorship",
+    "career_opportunities": "Career Opportunities",
+    "contact": "Contact",
+    "2026_lyce_saintelie_all_rights_reserved": "© 2026 $t(school.name). All Rights Reserved."
+  },
+  "home": {
+    "hero": {
+      "lyce_saintelie_darbesim_saida": "$t(school.name) · Darbesim, Saida",
+      "educating_today": "Educating Today.",
+      "inspiring_tomorrow": "Inspiring Tomorrow.",
+      "a_community_where_students_learn_grow_build": "A community where students learn, grow, build strong values, discover their potential, and remain connected long after graduation.",
+      "discover_our_school": "Discover Our School",
+      "join_alumni_network": "Join Alumni Network",
+      "previous_slide": "Previous slide",
+      "next_slide": "Next slide",
+      "campus_alt": "$t(school.name) campus {{number}}",
+      "go_to_slide": "Go to slide {{number}}"
+    },
+    "intro": {
+      "lyce_saintelie_introduction": "$t(school.name) introduction",
+      "rooted_in_faith": "Rooted in Faith,",
+      "sailing_toward_the_future": "Sailing Toward the Future."
+    },
+    "alumni": {
+      "update_your_profile": "Update Your Profile",
+      "keep_your_contact_location_education_and_professional": "Keep your contact, location, education, and professional information up to date.",
+      "find_your_community": "Find Your Community",
+      "reconnect_with_classmates_and_discover_alumni_by": "Reconnect with classmates and discover alumni by graduation year, country, or profession.",
+      "reunions_events": "Reunions & Events",
+      "stay_informed_about_alumni_gatherings_reunions_networking": "Stay informed about alumni gatherings, reunions, networking evenings, and school events.",
+      "become_a_mentor": "Become a Mentor",
+      "support_current_students_through_career_advice_university": "Support current students through career advice, university guidance, and mentoring.",
+      "career_opportunities": "Career Opportunities",
+      "share_internships_job_opportunities_company_visits_and": "Share internships, job opportunities, company visits, and professional connections.",
+      "global_alumni_network": "Global Alumni Network",
+      "stay_connected_with_lyce_saintelie_graduates_living": "Stay connected with $t(school.name) graduates living, studying, and working around the world.",
+      "lyce_saintelie_alumni": "$t(school.name) Alumni",
+      "once_a_student": "Once a Student.",
+      "always_part_of_our_community": "Always Part of Our Community.",
+      "graduation_is_not_the_end_of_the": "Graduation is not the end of the $t(school.name) journey. Our alumni remain part of a lifelong community built around connection, opportunity, mentorship, and shared experiences.",
+      "join_the_alumni_network": "Join the Alumni Network",
+      "update_my_details": "Update My Details",
+      "alumni_community": "Alumni community",
+      "alumni": "Alumni",
+      "years": "Years",
+      "alumni_database_initiative": "Alumni Database Initiative",
+      "help_us_reconnect_with_your_classmates": "Help us reconnect with your classmates.",
+      "if_you_graduated_from_lyce_saintelie_update": "If you graduated from $t(school.name), update your information and help us rebuild a strong, active alumni network.",
+      "update_alumni_profile": "Update Alumni Profile"
+    },
+    "students": "Students",
+    "teachers_educators": "Teachers & Educators",
+    "years_of_education": "Years of Education",
+    "early_years": "Early Years",
+    "a_nurturing_environment_focused_on_curiosity_exploration": "A nurturing environment focused on curiosity, exploration, creativity, and confidence.",
+    "primary_school": "Primary School",
+    "strong_academic_foundations_combined_with_collaboration_and": "Strong academic foundations combined with collaboration and discovery.",
+    "middle_school": "Middle School",
+    "developing_independence_critical_thinking_confidence_and_responsibility": "Developing independence, critical thinking, confidence, and responsibility.",
+    "secondary_school": "Secondary School",
+    "preparing_students_for_university_careers_leadership_and": "Preparing students for university, careers, leadership, and life.",
+    "sports": "Sports",
+    "arts": "Arts",
+    "music": "Music",
+    "science": "Science",
+    "innovation": "Innovation",
+    "leadership": "Leadership",
+    "24_aug_2026": "24 AUG 2026",
+    "achievement": "Achievement",
+    "students_win_national_science_competition": "Students Win National Science Competition",
+    "16_aug_2026": "16 AUG 2026",
+    "campus": "Campus",
+    "our_new_innovation_technology_lab_opens": "Our New Innovation & Technology Lab Opens",
+    "05_aug_2026": "05 AUG 2026",
+    "alumni_career_networking_evening_announced": "Alumni Career Networking Evening Announced",
+    "students_learning": "Students learning",
+    "years_inspiring_students": "Years inspiring students",
+    "welcome_to_lyce_saintelie": "Welcome to $t(school.name)",
+    "education_that_goes_beyond_the_classroom": "Education that goes beyond the classroom.",
+    "lyce_saintelie_combines_academic_excellence_creativity_technology": "$t(school.name) combines academic excellence, creativity, technology, leadership, character development, and community engagement to prepare students for a changing world.",
+    "our_relationship_with_students_does_not_stop": "Our relationship with students does not stop at graduation. Alumni remain an important part of our community through networking, mentorship, events, and opportunities.",
+    "discover_more": "Discover More",
+    "academics": "Academics",
+    "learning_at_every_stage": "Learning at Every Stage",
+    "every_stage_of_the_lyce_saintelie_journey": "Every stage of the $t(school.name) journey helps students grow academically, socially, and personally.",
+    "learn_more": "Learn More →",
+    "student_life": "Student Life",
+    "discover_participate_belong": "Discover. Participate. Belong.",
+    "education_is_more_than_academics_students_explore": "Education is more than academics. Students explore their interests, build friendships, develop talents, and contribute to their community.",
+    "student_activities": "Student activities",
+    "latest_updates": "Latest Updates",
+    "news_events": "News & Events",
+    "view_all_news": "View All News →",
+    "read_more": "Read More",
+    "school_campus": "School campus",
+    "admissions": "Admissions",
+    "your_childs_journey_starts_here": "Your Child's Journey Starts Here.",
+    "discover_an_education_designed_to_inspire_curiosity": "Discover an education designed to inspire curiosity, develop confidence, build character, and create connections that last a lifetime.",
+    "start_your_application": "Start Your Application",
+    "book_a_school_tour": "Book a School Tour",
+    "alumni_label": "Alumni"
+  },
+  "about": {
+    "foundation_of_lyce_stelie": "Foundation of $t(school.name)",
+    "the_beginning_of_a_community_shaped_by": "The beginning of a community shaped by learning, faith and service.",
+    "expansion_of_the_school_community": "Expansion of the school community",
+    "welcoming_more_families_and_strengthening_the_schools": "Welcoming more families and strengthening the school’s role in the region.",
+    "new_academic_programs": "New academic programs",
+    "broadening_opportunities_and_pathways_for_a_new": "Broadening opportunities and pathways for a new generation of learners.",
+    "modern_learning_spaces": "Modern learning spaces",
+    "renewing_classrooms_and_resources_for_a_changing": "Renewing classrooms and resources for a changing educational landscape.",
+    "today": "Today",
+    "the_journey_continues": "The journey continues",
+    "building_on_our_heritage_while_advancing_excellence": "Building on our heritage while advancing excellence and innovation.",
+    "faith": "Faith",
+    "growing_with_a_strong_moral_and_spiritual": "Growing with a strong moral and spiritual foundation.",
+    "excellence": "Excellence",
+    "encouraging_every_student_to_reach_their_highest": "Encouraging every student to reach their highest potential.",
+    "respect": "Respect",
+    "building_relationships_based_on_dignity_and_understanding": "Building relationships based on dignity and understanding.",
+    "responsibility": "Responsibility",
+    "helping_students_become_accountable_and_independent": "Helping students become accountable and independent.",
+    "community": "Community",
+    "creating_a_school_where_everyone_feels_they": "Creating a school where everyone feels they belong.",
+    "service": "Service",
+    "learning_to_use_our_talents_for_the": "Learning to use our talents for the good of others.",
+    "strong_academic_foundation": "Strong academic foundation",
+    "faith_and_character_formation": "Faith and character formation",
+    "close_studentteacher_relationships": "Close student-teacher relationships",
+    "arts_and_creativity": "Arts and creativity",
+    "sports_and_student_activities": "Sports and student activities",
+    "community_engagement": "Community engagement",
+    "futureready_learning": "Future-ready learning",
+    "students": "Students",
+    "educators": "Educators",
+    "years_of_education": "Years of Education",
+    "alumni": "Alumni",
+    "father_dr_eid_bou_rached": "Father Dr. Eid Bou Rached",
+    "principal": "Principal",
+    "guiding_the_schools_mission_culture_and_longterm": "Guiding the school’s mission, culture and long-term vision.",
+    "vice_principal_name": "Vice Principal Name",
+    "vice_principal": "Vice Principal",
+    "supporting_students_teachers_and_the_rhythm_of": "Supporting students, teachers and the rhythm of daily school life.",
+    "coordinator_name": "Coordinator Name",
+    "academic_coordinator": "Academic Coordinator",
+    "advancing_teaching_quality_and_meaningful_learning_experiences": "Advancing teaching quality and meaningful learning experiences.",
+    "student_life_coordinator": "Student Life Coordinator",
+    "helping_every_student_participate_connect_and_belong": "Helping every student participate, connect and belong.",
+    "campus": "Campus",
+    "learning_spaces": "Learning spaces",
+    "student_life": "Student life",
+    "classrooms": "Classrooms",
+    "laboratories": "Laboratories",
+    "about_lyce_stelie": "About $t(school.name)",
+    "our_story": "Our Story",
+    "our_mission": "Our Mission",
+    "our_future": "Our Future.",
+    "for_generations_lyce_stelie_has_been_a": "For generations, $t(school.name) has been a place where knowledge, faith, character and community come together.",
+    "placeholder_portrait_of_the_school_principal": "Placeholder portrait of the school principal",
+    "leadership_purpose": "Leadership & Purpose",
+    "a_message_from_our_principal": "A Message from Our Principal",
+    "at_lyce_stelie_education_is_more_than": "“At $t(school.name), education is more than academic achievement. It is about helping every student discover their potential, grow in confidence, develop strong values, and prepare to contribute positively to society.",
+    "our_mission_is_to_provide_an_environment": "Our mission is to provide an environment where students are challenged, supported, respected, and inspired every day.”",
+    "principal_lyce_stelie": "Principal · $t(school.name)",
+    "our_heritage": "Our Heritage",
+    "for_decades_lyce_stelie_has_served_generations": "For decades, $t(school.name) has served generations of students and families, building a tradition of learning, faith, service and community.",
+    "timeline_dates_are_placeholders_pending_confirmation_of": "Timeline dates are placeholders pending confirmation of the school’s official history.",
+    "milestone": "Milestone",
+    "education_for_the_whole_person": "Education for the whole person.",
+    "to_provide_a_holistic_education_that_combines": "To provide a holistic education that combines academic excellence, strong values, personal growth, faith, responsibility and service.",
+    "our_vision": "Our Vision",
+    "prepared_to_shape_the_future": "Prepared to shape the future.",
+    "to_prepare_confident_compassionate_and_capable_young": "To prepare confident, compassionate and capable young people who are ready to shape their future and contribute positively to their communities.",
+    "our_foundation": "Our Foundation",
+    "the_values_that_guide_us": "The Values That Guide Us",
+    "the_stelie_experience": "The St-Elie Experience",
+    "what_makes_stelie_different": "What Makes St-Elie Different",
+    "a_learning_experience_shaped_by_high_expectations": "A learning experience shaped by high expectations, personal attention and a genuine sense of belonging.",
+    "students_at_lyce_stelie": "Students at $t(school.name)",
+    "school_life_at_lyce_stelie": "School life at $t(school.name)",
+    "people_purpose": "People & Purpose",
+    "our_leadership": "Our Leadership",
+    "meet_the_people_who_guide_the_vision": "Meet the people who guide the vision and daily life of $t(school.name).",
+    "our_campus": "Our Campus",
+    "a_place_to_learn_grow_and_belong": "A Place to Learn, Grow and Belong",
+    "our_campus_is_designed_to_give_students": "Our campus is designed to give students the space, resources and experiences they need to learn, connect and thrive.",
+    "leader_portrait": "Placeholder portrait for {{role}}",
+    "gallery_alt": "{{label}} at $t(school.name)"
+  },
+  "contact": {
+    "monday_friday_800_am_300_pm": "Monday – Friday\n8:00 AM – 3:00 PM",
+    "visit_us": "Visit Us",
+    "call_us": "Call Us",
+    "main_school_line_placeholder": "Main school line · Placeholder",
+    "email_us": "Email Us",
+    "working_hours": "Working Hours",
+    "office_hours_placeholder": "Office hours · Placeholder",
+    "admissions_office": "Admissions Office",
+    "for_enrollment_visits_and_admission_questions": "For enrollment, visits, and admission questions.",
+    "administration": "Administration",
+    "for_general_school_information_and_administration": "For general school information and administration.",
+    "academic_office": "Academic Office",
+    "for_academic_programs_learning_and_student_progress": "For academic programs, learning and student progress.",
+    "alumni_relations": "Alumni Relations",
+    "for_alumni_network_reunions_and_community_events": "For alumni network, reunions and community events.",
+    "general_inquiry": "General Inquiry",
+    "admissions": "Admissions",
+    "academic_information": "Academic Information",
+    "student_life": "Student Life",
+    "alumni": "Alumni",
+    "technical_support": "Technical Support",
+    "other": "Other",
+    "contact_lyce_stelie": "Contact $t(school.name)",
+    "lets_stay_connected": "Let’s Stay Connected.",
+    "whether_you_are_a_parent_student_alumnus": "Whether you are a parent, student, alumnus, or future member of our community, we would be happy to hear from you.",
+    "our_location": "Our Location",
+    "find_us": "Find Us",
+    "lyce_stelie_is_located_in_darbessim_saida": "$t(school.name) is located in Darbessim, Saida, Lebanon.",
+    "open_in_google_maps": "Open in Google Maps",
+    "get_directions": "Get Directions",
+    "map_showing_lyce_stelie_in_darbessim_saida": "Map showing $t(school.name) in Darbessim, Saida, Lebanon",
+    "send_a_message": "Send a Message",
+    "how_can_we_help": "How Can We Help?",
+    "share_your_question_with_us_this_demonstration": "Share your question with us. This demonstration form validates your message locally and is ready to connect to your preferred delivery service.",
+    "prefer_email": "Prefer email?",
+    "full_name": "Full Name",
+    "email_address": "Email Address",
+    "phone_number": "Phone Number",
+    "optional": "Optional",
+    "subject": "Subject",
+    "select_a_subject": "Select a subject",
+    "message": "Message",
+    "thank_you_for_contacting_lyce_stelie": "Thank you for contacting $t(school.name).",
+    "your_message_has_been_received_and_our": "Your message has been received and our team will get back to you as soon as possible.",
+    "send_message": "Send Message",
+    "we_look_forward_to_welcoming_you": "We Look Forward to Welcoming You.",
+    "visit_lyce_stelie_and_discover_our_community": "Visit $t(school.name) and discover our community in person.",
+    "plan_a_visit": "Plan a Visit",
+    "demoTitle": "Demo validation complete",
+    "demoText": "Your entries passed the local checks. No message has been sent or saved. Please use the school’s confirmed contact details to reach the team."
+  },
+  "alumni": {
+    "our_alumni_community": "Our Alumni Community",
+    "stay_connected_beyond_graduation": "Stay Connected Beyond Graduation",
+    "we_want_to_reconnect_generations_of_lyce": "We want to reconnect generations of $t(school.name) graduates and create a community where alumni can meet, contribute, mentor, and create opportunities.",
+    "reconnect": "Reconnect",
+    "reconnect_with_classmates_and_former_school_friends": "Reconnect with classmates and former school friends.",
+    "events_reunions": "Events & Reunions",
+    "receive_updates_about_reunions_gatherings_and_alumni": "Receive updates about reunions, gatherings and alumni activities.",
+    "mentorship": "Mentorship",
+    "support_current_students_by_sharing_your_knowledge": "Support current students by sharing your knowledge and experience.",
+    "career_network": "Career Network",
+    "share_jobs_internships_and_professional_opportunities": "Share jobs, internships and professional opportunities.",
+    "alumni_registration": "Alumni Registration",
+    "join_the_alumni_network": "Join the Alumni Network",
+    "help_us_rebuild_and_strengthen_the_lyce": "Help us rebuild and strengthen the $t(school.name) alumni community by telling us where life has taken you.",
+    "personal_information": "Personal Information",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "graduation_year": "Graduation Year",
+    "example_2012": "Example: 2012",
+    "contact_information": "Contact Information",
+    "email_address": "Email Address",
+    "phone_number": "Phone Number",
+    "preferred_contact_method": "Preferred Contact Method",
+    "email": "Email",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "where_are_you_now": "Where Are You Now?",
+    "current_country": "Current Country",
+    "example_lebanon": "Example: Lebanon",
+    "current_city": "Current City",
+    "example_saida": "Example: Saida",
+    "education_after_saintelie": "Education After Saint-Elie",
+    "university_institution": "University / Institution",
+    "example_notre_dame_university": "Example: Notre Dame University",
+    "degree_field_of_study": "Degree / Field of Study",
+    "example_computer_engineering": "Example: Computer Engineering",
+    "professional_information": "Professional Information",
+    "profession_industry": "Profession / Industry",
+    "example_engineering": "Example: Engineering",
+    "current_job_title": "Current Job Title",
+    "example_software_engineer": "Example: Software Engineer",
+    "company_organization": "Company / Organization",
+    "company_name": "Company name",
+    "linkedin_profile": "LinkedIn Profile",
+    "stay_involved": "Stay Involved",
+    "select_any_activities_you_would_be_interested": "Select any activities you would be interested in.",
+    "receive_alumni_news_and_newsletters": "Receive alumni news and newsletters",
+    "attend_reunions_and_alumni_events": "Attend reunions and alumni events",
+    "mentor_current_lyce_saintelie_students": "Mentor current $t(school.name) students",
+    "share_jobs_or_internship_opportunities": "Share jobs or internship opportunities",
+    "volunteer_for_school_or_alumni_initiatives": "Volunteer for school or alumni initiatives",
+    "tell_us_about_your_journey": "Tell Us About Your Journey",
+    "share_anything_you_would_like_us_to": "Share anything you would like us to know about your journey after $t(school.name)...",
+    "your_privacy_matters": "Your privacy matters",
+    "your_contact_information_will_be_used_only": "Your contact information will be used only for $t(school.name) alumni communication and community activities. Private contact information will not be displayed publicly without your permission.",
+    "welcome_to_the_alumni_network": "Welcome to the alumni network!",
+    "your_information_has_been_saved_successfully_thank": "Your information has been saved successfully. Thank you for reconnecting with $t(school.name).",
+    "saving_your_profile": "Saving Your Profile...",
+    "help_us_reconnect_our_community": "Help Us Reconnect Our Community.",
+    "know_a_former_classmate_who_has_lost": "Know a former classmate who has lost contact with the school? Share the alumni network with them and help us bring generations of Saint-Elie graduates together.",
+    "update_your_alumni_profile": "Update Your Alumni Profile"
+  },
+  "pages": {
+    "this_page_is_ready_for_its_final": "This page is ready for its final school content.",
+    "back_to_home": "Back to Home"
+  },
+  "routes": {
+    "academics": "Academics",
+    "learning_at_every_stage": "Learning at Every Stage",
+    "explore_the_academic_journey_programs_and_learning": "Explore the academic journey, programs and learning experiences at $t(school.name).",
+    "student_life": "Student Life",
+    "discover_participate_belong": "Discover. Participate. Belong.",
+    "discover_the_activities_experiences_and_relationships_that": "Discover the activities, experiences and relationships that shape student life at $t(school.name).",
+    "admissions": "Admissions",
+    "begin_your_stelie_journey": "Begin Your St-Elie Journey",
+    "find_the_information_your_family_needs_to": "Find the information your family needs to begin the admissions journey with $t(school.name).",
+    "news_events": "News & Events",
+    "life_at_lyce_saintelie": "Life at $t(school.name)",
+    "follow_school_news_achievements_activities_and_upcoming": "Follow school news, achievements, activities and upcoming community events."
+  },
+  "validation": {
+    "name": "Please enter your full name.",
+    "emailRequired": "Please enter your email address.",
+    "emailInvalid": "Please enter a valid email address.",
+    "subject": "Please select a subject.",
+    "message": "Please enter your message.",
+    "year": "Please enter a valid graduation year.",
+    "names": "Please enter your first and last name.",
+    "save": "We could not save your profile. Please try again.",
+    "url": "Please enter a valid URL.",
+    "unavailable": "Registration is not connected yet. Your information has not been sent or saved. Please contact the school."
+  },
+  "common": {
+    "bookVisit": "Book a Visit",
+    "contactAdmissions": "Contact Admissions",
+    "schoolPhoto": "A view of $t(school.name)",
+    "schoolPhotoNumber": "$t(school.name) — school photo {{number}}",
+    "skip": "Skip to main content",
+    "statisticsNote": "Existing sample figures — official school statistics to be confirmed.",
+    "principalPreview": "A Message from Our Principal",
+    "readMessage": "Read the full message",
+    "whySchool": "Why $t(school.name)",
+    "pauseSlideshow": "Pause slideshow",
+    "resumeSlideshow": "Resume slideshow",
+    "principalExcerpt": "Our mission is to provide an environment where students are challenged, supported, respected, and inspired every day."
+  },
+  "academicsPage": {
+    "title": "Academic Excellence",
+    "subtitle": "Inspiring curiosity, critical thinking, confidence and lifelong learning.",
+    "approach": {
+      "title": "Our Academic Approach",
+      "text": "Learning brings together knowledge, curiosity and personal growth. This overview introduces the learning journey; our team can explain the confirmed programs and teaching approach for your child."
+    },
+    "placeholder": "Editable overview: cycle names, subjects, languages of instruction and support services must be confirmed by the school. This is not an official curriculum statement.",
+    "cycles": "Educational Cycles / Programs",
+    "areas": "Learning Areas",
+    "languages": {
+      "title": "Languages",
+      "text": "Space for the school’s confirmed language programs, teaching languages and language-learning opportunities. Contact the academic team for current details."
+    },
+    "science": {
+      "title": "Science & Technology",
+      "text": "Explore questions, observation and problem-solving. The school will add verified information about science subjects, technology learning and available facilities here."
+    },
+    "arts": {
+      "title": "Arts",
+      "text": "A place to present creative learning and expression. Confirmed art subjects, workshops and student work will be added by the school."
+    },
+    "support": {
+      "title": "Student Support",
+      "text": "Every learner has questions and individual needs. Speak with the school about the support currently available; specialist services and arrangements are still to be confirmed."
+    },
+    "achievements": {
+      "title": "Academic Achievements",
+      "text": "Verified results and achievements will appear here once approved by the school. Add the academic year, source and context before publishing any figures or awards."
+    },
+    "cta": {
+      "title": "Discover the Learning Journey",
+      "text": "Meet our team and ask about the programs that suit your child."
+    }
+  },
+  "studentLifePage": {
+    "title": "Beyond the Classroom",
+    "subtitle": "Room to discover interests, build friendships and contribute to a shared community.",
+    "activities": "Activities",
+    "explore": {
+      "title": "Discover. Participate. Belong.",
+      "text": "School life is shaped by the experiences students share. This page offers space for the school to present its confirmed activities, creative projects and opportunities to get involved."
+    },
+    "placeholder": "Editable activity overview. Availability, schedules, participation details and staff contacts are awaiting school confirmation.",
+    "sports": {
+      "title": "Sports",
+      "text": "Movement, teamwork and fair play. Add the school’s confirmed sports, facilities and participation information here."
+    },
+    "arts": {
+      "title": "Arts & Music",
+      "text": "Space for creative voices. Add approved information about music, visual arts, performances and workshops."
+    },
+    "clubs": {
+      "title": "Clubs",
+      "text": "Shared interests can open new doors. The confirmed club list, meeting times and joining process will be published here."
+    },
+    "service": {
+      "title": "Community Service",
+      "text": "A place to share approved service initiatives, community partners and ways students can participate responsibly."
+    },
+    "leadership": {
+      "title": "Leadership",
+      "heading": "Learning to Contribute",
+      "text": "Listening, taking initiative and supporting others are part of growing together. The school will add confirmed student leadership opportunities and responsibilities here."
+    },
+    "events": {
+      "title": "School Events",
+      "text": "Celebrations and shared experiences bring a school community together. Confirmed events and dates will be listed in News & Events."
+    },
+    "gallery": "Student Gallery",
+    "galleryNote": "Existing school imagery. Replace with approved activity photos and specific captions before publication.",
+    "cta": {
+      "title": "Experience Our Community",
+      "text": "Arrange a visit and ask about current activities and student opportunities."
+    }
+  },
+  "admissionsPage": {
+    "title": "Begin Your Journey at $t(school.name)",
+    "subtitle": "A first conversation, a visit, and a chance to discover the school together.",
+    "welcome": {
+      "title": "Welcome to Our School Community",
+      "text": "Choosing a school starts with your family’s questions. Our team can guide you through the confirmed admission requirements and help you plan your next step."
+    },
+    "placeholder": "Editable process outline, pending school approval. Tuition, ages, deadlines, documents and admission policies are not yet confirmed. Please contact the school before making arrangements.",
+    "process": "Admission Process",
+    "steps": {
+      "inquiry": {
+        "title": "Step 1: Inquiry",
+        "text": "Share your questions with the school and ask about current availability and requirements."
+      },
+      "visit": {
+        "title": "Step 2: School Visit",
+        "text": "Request a visit. A date is only confirmed when the school replies to your request."
+      },
+      "documents": {
+        "title": "Step 3: Submit Documents",
+        "text": "Obtain the official checklist and submission instructions from the admissions team."
+      },
+      "evaluation": {
+        "title": "Step 4: Evaluation / Interview",
+        "text": "Ask whether an evaluation or meeting applies to your child. Details must be confirmed by the school."
+      },
+      "registration": {
+        "title": "Step 5: Registration",
+        "text": "Complete registration only after receiving the school’s official instructions and confirmation."
+      }
+    },
+    "documents": {
+      "title": "Required Documents",
+      "text": "Placeholder checklist categories only. The school must confirm the exact documents, formats and submission method.",
+      "identity": "Identity documents — to be confirmed",
+      "records": "Previous school records — to be confirmed",
+      "forms": "School application forms — to be provided"
+    },
+    "faq": "Frequently Asked Questions",
+    "questions": {
+      "apply": {
+        "question": "How do we begin?",
+        "answer": "Contact the school to ask about availability, the relevant cycle and the confirmed application process."
+      },
+      "documents": {
+        "question": "Which documents should we prepare?",
+        "answer": "Request the official checklist from the school. The categories on this page are placeholders, not a final requirement list."
+      },
+      "fees": {
+        "question": "Where can we find fees and deadlines?",
+        "answer": "These details are awaiting confirmation. The admissions team should provide the current official information directly."
+      },
+      "visit": {
+        "question": "Can we visit the school?",
+        "answer": "Use the contact page to request a visit. Please wait for the school to confirm a suitable time; the website does not book appointments automatically."
+      }
+    },
+    "cta": {
+      "title": "Let’s Take the First Step Together",
+      "text": "Talk to the school about your child and the next steps for your family."
+    }
+  },
+  "newsPage": {
+    "title": "News & Events",
+    "subtitle": "Stories, learning and moments from our school community.",
+    "placeholder": "Editorial placeholders: these are draft content slots, not reports of real events or achievements. The school must provide approved stories, dates and photographs.",
+    "featured": "Featured Story",
+    "datePending": "Date to be confirmed",
+    "events": "Upcoming Events",
+    "latest": "Latest News",
+    "categories": "Filter news by category",
+    "categoriesList": {
+      "all": "All",
+      "school": "School Life",
+      "learning": "Learning",
+      "community": "Community"
+    },
+    "results": "Stories shown: {{count}}",
+    "stories": {
+      "schoolLife": {
+        "title": "A Window into School Life",
+        "text": "Reserved for a school-approved feature about daily life on campus. Add the story, named contributors and approved photographs before publication."
+      },
+      "learning": {
+        "title": "Learning in Focus",
+        "text": "Reserved for a verified classroom project or learning story. The school will provide the project details and publication date."
+      },
+      "community": {
+        "title": "Community Connections",
+        "text": "Reserved for an approved community or alumni update. Add confirmed information and contact details when available."
+      }
+    },
+    "eventsList": {
+      "visit": {
+        "title": "School Visit — Draft Event",
+        "text": "A proposed event slot. Date, availability and visit arrangements must be confirmed by the school."
+      },
+      "gathering": {
+        "title": "Community Gathering — Draft Event",
+        "text": "A proposed community event slot. No gathering is scheduled until the school confirms the details."
+      }
+    }
+  },
+  "seo": {
+    "home": {
+      "title": "$t(school.name) | Darbessim – Saida",
+      "description": "Discover $t(school.name) in Darbessim, Saida: learning, school life, admissions and our alumni community."
+    },
+    "about": {
+      "title": "About | $t(school.name)",
+      "description": "Explore our story, values, leadership and school community."
+    },
+    "academics": {
+      "title": "Academics | $t(school.name)",
+      "description": "Explore our academic approach and program overview. Contact the school for confirmed curriculum details."
+    },
+    "studentLife": {
+      "title": "Student Life | $t(school.name)",
+      "description": "Discover the space for activities, arts, sport, leadership and community life."
+    },
+    "admissions": {
+      "title": "Admissions | $t(school.name)",
+      "description": "Start a conversation about admissions, request a visit and learn about the next steps."
+    },
+    "alumni": {
+      "title": "Alumni | $t(school.name)",
+      "description": "Reconnect with $t(school.name) and join the alumni network."
+    },
+    "news": {
+      "title": "News & Events | $t(school.name)",
+      "description": "School news and events, with confirmed dates and stories added by the school."
+    },
+    "contact": {
+      "title": "Contact | $t(school.name)",
+      "description": "Contact $t(school.name), find our location and ask about visits, admissions and school life."
+    }
+  },
+  "newsUI": {
+    "back": "Back to News",
+    "gallery": "Article Gallery",
+    "galleryImage": "{{title}} — image {{number}}",
+    "related": "Related News",
+    "notFound": "Article not found",
+    "notFoundText": "This article is unavailable. Browse the latest news to find another story.",
+    "imagePending": "Article image coming soon",
+    "empty": "News will appear here when available.",
+    "carousel": "Slideshow",
+    "featuredNews": "Featured school news",
+    "controls": "News slideshow controls"
+  }
+}

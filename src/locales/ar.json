@@ -1,0 +1,611 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "about": "عن المدرسة",
+    "academics": "التعليم",
+    "student_life": "الحياة المدرسية",
+    "news_events": "الأخبار والفعاليات",
+    "alumni": "الخريجون",
+    "contact": "تواصل معنا",
+    "lyce_saintelie_home": "الصفحة الرئيسية لـ$t(school.name)",
+    "main_navigation": "التنقل الرئيسي",
+    "admissions": "القبول والتسجيل",
+    "toggle_navigation": "فتح قائمة التنقل أو إغلاقها",
+    "mobile_navigation": "التنقل على الهاتف",
+    "language": "اللغة"
+  },
+  "school": {
+    "name": "ثانوية مار الياس",
+    "location": "درب السيم · صيدا · لبنان"
+  },
+  "footer": {
+    "back_to_top": "العودة إلى الأعلى",
+    "learn_grow_lead": "نتعلم. ننمو. نقود.",
+    "inspiring_students_to_learn_grow_lead_and": "نلهم الطلاب للتعلم والنمو والقيادة والبقاء على تواصل مع مجتمعهم المدرسي مدى الحياة.",
+    "school": "المدرسة",
+    "about_us": "من نحن",
+    "academics": "التعليم",
+    "admissions": "القبول والتسجيل",
+    "student_life": "الحياة المدرسية",
+    "news_events": "الأخبار والفعاليات",
+    "alumni": "الخريجون",
+    "alumni_network": "شبكة الخريجين",
+    "update_my_profile": "تحديث ملفي",
+    "alumni_stories": "قصص الخريجين",
+    "reunions": "لقاءات الخريجين",
+    "mentorship": "الإرشاد",
+    "career_opportunities": "فرص العمل",
+    "contact": "تواصل معنا",
+    "2026_lyce_saintelie_all_rights_reserved": "© 2026 $t(school.name). جميع الحقوق محفوظة."
+  },
+  "home": {
+    "hero": {
+      "lyce_saintelie_darbesim_saida": "$t(school.name) · $t(school.location)",
+      "educating_today": "نعلّم اليوم.",
+      "inspiring_tomorrow": "نلهم الغد.",
+      "a_community_where_students_learn_grow_build": "مجتمع يتعلم فيه الطلاب وينمون ويرسخون قيمهم ويكتشفون إمكاناتهم ويبقون على تواصل بعد التخرج بسنوات طويلة.",
+      "discover_our_school": "اكتشف مدرستنا",
+      "join_alumni_network": "انضم إلى شبكة الخريجين",
+      "previous_slide": "الشريحة السابقة",
+      "next_slide": "الشريحة التالية",
+      "campus_alt": "حرم $t(school.name) {{number}}",
+      "go_to_slide": "انتقل إلى الشريحة {{number}}"
+    },
+    "intro": {
+      "lyce_saintelie_introduction": "مقدمة $t(school.name)",
+      "rooted_in_faith": "متجذرون في الإيمان،",
+      "sailing_toward_the_future": "نبحر نحو المستقبل."
+    },
+    "alumni": {
+      "update_your_profile": "حدّث ملفك",
+      "keep_your_contact_location_education_and_professional": "حافظ على تحديث بيانات التواصل والإقامة والتعليم والعمل.",
+      "find_your_community": "اعثر على مجتمعك",
+      "reconnect_with_classmates_and_discover_alumni_by": "تواصل مجددًا مع زملائك وتعرّف على الخريجين بحسب سنة التخرج أو البلد أو المهنة.",
+      "reunions_events": "اللقاءات والفعاليات",
+      "stay_informed_about_alumni_gatherings_reunions_networking": "تابع أخبار تجمعات الخريجين ولقاءاتهم وأمسيات التواصل والفعاليات المدرسية.",
+      "become_a_mentor": "كن مرشدًا",
+      "support_current_students_through_career_advice_university": "ادعم الطلاب الحاليين بالنصائح المهنية والتوجيه الجامعي والإرشاد.",
+      "career_opportunities": "فرص العمل",
+      "share_internships_job_opportunities_company_visits_and": "شارك فرص التدريب والعمل وزيارات الشركات والعلاقات المهنية.",
+      "global_alumni_network": "شبكة الخريجين حول العالم",
+      "stay_connected_with_lyce_saintelie_graduates_living": "ابقَ على تواصل مع خريجي $t(school.name) المقيمين والدارسين والعاملين حول العالم.",
+      "lyce_saintelie_alumni": "خريجو $t(school.name)",
+      "once_a_student": "طالب يومًا.",
+      "always_part_of_our_community": "جزء من مجتمعنا دائمًا.",
+      "graduation_is_not_the_end_of_the": "التخرج ليس نهاية الرحلة في $t(school.name). يبقى خريجونا جزءًا من مجتمع يدوم مدى الحياة، قائم على التواصل والفرص والإرشاد والتجارب المشتركة.",
+      "join_the_alumni_network": "انضم إلى شبكة الخريجين",
+      "update_my_details": "تحديث بياناتي",
+      "alumni_community": "مجتمع الخريجين",
+      "alumni": "الخريجون",
+      "years": "سنوات",
+      "alumni_database_initiative": "مبادرة قاعدة بيانات الخريجين",
+      "help_us_reconnect_with_your_classmates": "ساعدنا على التواصل مجددًا مع زملائك.",
+      "if_you_graduated_from_lyce_saintelie_update": "إذا كنت من خريجي $t(school.name)، حدّث بياناتك وساعدنا في إعادة بناء شبكة خريجين قوية وفاعلة.",
+      "update_alumni_profile": "تحديث ملف الخريج"
+    },
+    "students": "الطلاب",
+    "teachers_educators": "المعلمون والمربون",
+    "years_of_education": "سنوات من التعليم",
+    "early_years": "الروضة",
+    "a_nurturing_environment_focused_on_curiosity_exploration": "بيئة داعمة تركز على الفضول والاستكشاف والإبداع والثقة بالنفس.",
+    "primary_school": "المرحلة الابتدائية",
+    "strong_academic_foundations_combined_with_collaboration_and": "أسس تعليمية متينة تجمع بين التعاون والاكتشاف.",
+    "middle_school": "المرحلة المتوسطة",
+    "developing_independence_critical_thinking_confidence_and_responsibility": "تنمية الاستقلالية والتفكير النقدي والثقة والمسؤولية.",
+    "secondary_school": "المرحلة الثانوية",
+    "preparing_students_for_university_careers_leadership_and": "إعداد الطلاب للجامعة والعمل والقيادة والحياة.",
+    "sports": "الرياضة",
+    "arts": "الفنون",
+    "music": "الموسيقى",
+    "science": "العلوم",
+    "innovation": "الابتكار",
+    "leadership": "القيادة",
+    "24_aug_2026": "24 آب 2026",
+    "achievement": "إنجاز",
+    "students_win_national_science_competition": "طلابنا يفوزون في مسابقة العلوم الوطنية",
+    "16_aug_2026": "16 آب 2026",
+    "campus": "الحرم المدرسي",
+    "our_new_innovation_technology_lab_opens": "افتتاح مختبرنا الجديد للابتكار والتكنولوجيا",
+    "05_aug_2026": "05 آب 2026",
+    "alumni_career_networking_evening_announced": "الإعلان عن أمسية تواصل مهني للخريجين",
+    "students_learning": "طلاب يتعلمون",
+    "years_inspiring_students": "سنوات من إلهام الطلاب",
+    "welcome_to_lyce_saintelie": "أهلًا بكم في $t(school.name)",
+    "education_that_goes_beyond_the_classroom": "تعليم يتجاوز حدود الصف.",
+    "lyce_saintelie_combines_academic_excellence_creativity_technology": "تجمع $t(school.name) بين التميز الأكاديمي والإبداع والتكنولوجيا والقيادة وبناء الشخصية والمشاركة المجتمعية لإعداد الطلاب لعالم متغير.",
+    "our_relationship_with_students_does_not_stop": "لا تنتهي علاقتنا بالطلاب عند التخرج. يظل الخريجون جزءًا أساسيًا من مجتمعنا من خلال التواصل والإرشاد والفعاليات والفرص.",
+    "discover_more": "اكتشف المزيد",
+    "academics": "التعليم",
+    "learning_at_every_stage": "التعلم في كل مرحلة",
+    "every_stage_of_the_lyce_saintelie_journey": "تساعد كل مرحلة من الرحلة في $t(school.name) الطلاب على النمو أكاديميًا واجتماعيًا وشخصيًا.",
+    "learn_more": "اعرف المزيد ←",
+    "student_life": "الحياة المدرسية",
+    "discover_participate_belong": "اكتشف. شارك. انتمِ.",
+    "education_is_more_than_academics_students_explore": "التعليم أكثر من تحصيل أكاديمي. يستكشف الطلاب اهتماماتهم ويبنون صداقات وينمون مواهبهم ويسهمون في مجتمعهم.",
+    "student_activities": "أنشطة الطلاب",
+    "latest_updates": "آخر المستجدات",
+    "news_events": "الأخبار والفعاليات",
+    "view_all_news": "جميع الأخبار ←",
+    "read_more": "اقرأ المزيد",
+    "school_campus": "الحرم المدرسي",
+    "admissions": "القبول والتسجيل",
+    "your_childs_journey_starts_here": "رحلة طفلك تبدأ هنا.",
+    "discover_an_education_designed_to_inspire_curiosity": "اكتشف تعليمًا يلهم الفضول وينمي الثقة ويبني الشخصية ويخلق روابط تدوم مدى الحياة.",
+    "start_your_application": "ابدأ طلب التسجيل",
+    "book_a_school_tour": "احجز جولة في المدرسة",
+    "alumni_label": "الخريجون"
+  },
+  "about": {
+    "foundation_of_lyce_stelie": "تأسيس $t(school.name)",
+    "the_beginning_of_a_community_shaped_by": "بداية مجتمع يصوغه التعلم والإيمان والخدمة.",
+    "expansion_of_the_school_community": "توسع المجتمع المدرسي",
+    "welcoming_more_families_and_strengthening_the_schools": "استقبال المزيد من العائلات وتعزيز دور المدرسة في المنطقة.",
+    "new_academic_programs": "برامج تعليمية جديدة",
+    "broadening_opportunities_and_pathways_for_a_new": "توسيع الفرص والمسارات لجيل جديد من المتعلمين.",
+    "modern_learning_spaces": "مساحات تعلم حديثة",
+    "renewing_classrooms_and_resources_for_a_changing": "تجديد الصفوف والموارد لمواكبة تطور التعليم.",
+    "today": "اليوم",
+    "the_journey_continues": "تستمر الرحلة",
+    "building_on_our_heritage_while_advancing_excellence": "البناء على إرثنا مع تعزيز التميز والابتكار.",
+    "faith": "الإيمان",
+    "growing_with_a_strong_moral_and_spiritual": "النمو على أسس أخلاقية وروحية متينة.",
+    "excellence": "التميز",
+    "encouraging_every_student_to_reach_their_highest": "تشجيع كل طالب على بلوغ أقصى إمكاناته.",
+    "respect": "الاحترام",
+    "building_relationships_based_on_dignity_and_understanding": "بناء علاقات قائمة على الكرامة والتفاهم.",
+    "responsibility": "المسؤولية",
+    "helping_students_become_accountable_and_independent": "مساعدة الطلاب على تحمل المسؤولية والاستقلالية.",
+    "community": "المجتمع",
+    "creating_a_school_where_everyone_feels_they": "بناء مدرسة يشعر فيها الجميع بالانتماء.",
+    "service": "الخدمة",
+    "learning_to_use_our_talents_for_the": "تعلم استخدام مواهبنا لخير الآخرين.",
+    "strong_academic_foundation": "أساس أكاديمي متين",
+    "faith_and_character_formation": "تنمية الإيمان والشخصية",
+    "close_studentteacher_relationships": "علاقات وثيقة بين الطلاب والمعلمين",
+    "arts_and_creativity": "الفنون والإبداع",
+    "sports_and_student_activities": "الرياضة والأنشطة الطلابية",
+    "community_engagement": "المشاركة المجتمعية",
+    "futureready_learning": "تعلم يواكب المستقبل",
+    "students": "الطلاب",
+    "educators": "المربون",
+    "years_of_education": "سنوات من التعليم",
+    "alumni": "الخريجون",
+    "father_dr_eid_bou_rached": "الأب الدكتور عيد بو راشد",
+    "principal": "المدير",
+    "guiding_the_schools_mission_culture_and_longterm": "توجيه رسالة المدرسة وثقافتها ورؤيتها المستقبلية.",
+    "vice_principal_name": "اسم نائب المدير",
+    "vice_principal": "نائب المدير",
+    "supporting_students_teachers_and_the_rhythm_of": "دعم الطلاب والمعلمين والحياة المدرسية اليومية.",
+    "coordinator_name": "اسم المنسق",
+    "academic_coordinator": "المنسق الأكاديمي",
+    "advancing_teaching_quality_and_meaningful_learning_experiences": "تطوير جودة التدريس وتجارب التعلم الهادفة.",
+    "student_life_coordinator": "منسق الحياة المدرسية",
+    "helping_every_student_participate_connect_and_belong": "مساعدة كل طالب على المشاركة والتواصل والانتماء.",
+    "campus": "الحرم المدرسي",
+    "learning_spaces": "مساحات التعلم",
+    "student_life": "الحياة المدرسية",
+    "classrooms": "الصفوف الدراسية",
+    "laboratories": "المختبرات",
+    "about_lyce_stelie": "عن $t(school.name)",
+    "our_story": "قصتنا",
+    "our_mission": "رسالتنا",
+    "our_future": "مستقبلنا.",
+    "for_generations_lyce_stelie_has_been_a": "منذ أجيال، تشكل $t(school.name) مكانًا يجمع المعرفة والإيمان وبناء الشخصية وروح المجتمع.",
+    "placeholder_portrait_of_the_school_principal": "صورة مؤقتة لمدير المدرسة",
+    "leadership_purpose": "القيادة والرسالة",
+    "a_message_from_our_principal": "كلمة مديرنا",
+    "at_lyce_stelie_education_is_more_than": "«في $t(school.name)، يتجاوز التعليم النجاح الأكاديمي. فهو يساعد كل طالب على اكتشاف إمكاناته وتعزيز ثقته وترسيخ قيمه والاستعداد للإسهام الإيجابي في المجتمع.",
+    "our_mission_is_to_provide_an_environment": "رسالتنا توفير بيئة تحفز الطلاب وتدعمهم وتحترمهم وتلهمهم كل يوم».",
+    "principal_lyce_stelie": "المدير · $t(school.name)",
+    "our_heritage": "إرثنا",
+    "for_decades_lyce_stelie_has_served_generations": "منذ عقود، تخدم $t(school.name) أجيالًا من الطلاب والعائلات، وترسخ تقليدًا من التعلم والإيمان والخدمة وروح المجتمع.",
+    "timeline_dates_are_placeholders_pending_confirmation_of": "تواريخ هذا التسلسل الزمني مؤقتة إلى حين تأكيد التاريخ الرسمي للمدرسة.",
+    "milestone": "محطة بارزة",
+    "education_for_the_whole_person": "تعليم يبني الإنسان بكل أبعاده.",
+    "to_provide_a_holistic_education_that_combines": "توفير تعليم متكامل يجمع التميز الأكاديمي والقيم الراسخة والنمو الشخصي والإيمان والمسؤولية والخدمة.",
+    "our_vision": "رؤيتنا",
+    "prepared_to_shape_the_future": "مستعدون لصناعة المستقبل.",
+    "to_prepare_confident_compassionate_and_capable_young": "إعداد شباب واثقين ومتعاطفين وقادرين على بناء مستقبلهم والإسهام الإيجابي في مجتمعاتهم.",
+    "our_foundation": "أسسنا",
+    "the_values_that_guide_us": "القيم التي ترشدنا",
+    "the_stelie_experience": "تجربة مار الياس",
+    "what_makes_stelie_different": "ما يميز مار الياس",
+    "a_learning_experience_shaped_by_high_expectations": "تجربة تعلم تقوم على الطموح والاهتمام الفردي والشعور الحقيقي بالانتماء.",
+    "students_at_lyce_stelie": "طلاب $t(school.name)",
+    "school_life_at_lyce_stelie": "الحياة المدرسية في $t(school.name)",
+    "people_purpose": "فريق ورسالة",
+    "our_leadership": "فريق القيادة",
+    "meet_the_people_who_guide_the_vision": "تعرّف على الأشخاص الذين يوجهون رؤية $t(school.name) وحياتها اليومية.",
+    "our_campus": "حرمنا المدرسي",
+    "a_place_to_learn_grow_and_belong": "مكان للتعلم والنمو والانتماء",
+    "our_campus_is_designed_to_give_students": "صُمم حرمنا ليوفر للطلاب المساحات والموارد والتجارب التي يحتاجونها للتعلم والتواصل والازدهار.",
+    "leader_portrait": "صورة مؤقتة: {{role}}",
+    "gallery_alt": "{{label}} في $t(school.name)"
+  },
+  "contact": {
+    "monday_friday_800_am_300_pm": "من الاثنين إلى الجمعة\n8:00 صباحًا – 3:00 بعد الظهر",
+    "visit_us": "زورونا",
+    "call_us": "اتصلوا بنا",
+    "main_school_line_placeholder": "هاتف المدرسة الرئيسي · مؤقت",
+    "email_us": "راسلونا",
+    "working_hours": "ساعات العمل",
+    "office_hours_placeholder": "ساعات الدوام الإداري · مؤقتة",
+    "admissions_office": "مكتب القبول والتسجيل",
+    "for_enrollment_visits_and_admission_questions": "للاستفسار عن التسجيل والزيارات والقبول.",
+    "administration": "الإدارة",
+    "for_general_school_information_and_administration": "للمعلومات العامة والشؤون الإدارية.",
+    "academic_office": "المكتب الأكاديمي",
+    "for_academic_programs_learning_and_student_progress": "للبرامج التعليمية والتعلم ومتابعة تقدم الطلاب.",
+    "alumni_relations": "علاقات الخريجين",
+    "for_alumni_network_reunions_and_community_events": "لشبكة الخريجين واللقاءات والفعاليات المجتمعية.",
+    "general_inquiry": "استفسار عام",
+    "admissions": "القبول والتسجيل",
+    "academic_information": "معلومات أكاديمية",
+    "student_life": "الحياة المدرسية",
+    "alumni": "الخريجون",
+    "technical_support": "الدعم التقني",
+    "other": "أخرى",
+    "contact_lyce_stelie": "تواصل مع $t(school.name)",
+    "lets_stay_connected": "لنبقَ على تواصل.",
+    "whether_you_are_a_parent_student_alumnus": "سواء كنت ولي أمر أو طالبًا أو خريجًا أو عضوًا مستقبليًا في مجتمعنا، يسعدنا أن نسمع منك.",
+    "our_location": "موقعنا",
+    "find_us": "أين تجدنا",
+    "lyce_stelie_is_located_in_darbessim_saida": "تقع $t(school.name) في درب السيم، صيدا، لبنان.",
+    "open_in_google_maps": "افتح في خرائط Google",
+    "get_directions": "احصل على الاتجاهات",
+    "map_showing_lyce_stelie_in_darbessim_saida": "خريطة $t(school.name) في درب السيم، صيدا، لبنان",
+    "send_a_message": "أرسل رسالة",
+    "how_can_we_help": "كيف يمكننا مساعدتك؟",
+    "share_your_question_with_us_this_demonstration": "شاركنا سؤالك. يتحقق هذا النموذج التجريبي من رسالتك محليًا، وهو جاهز للربط بخدمة إرسال.",
+    "prefer_email": "تفضل البريد الإلكتروني؟",
+    "full_name": "الاسم الكامل",
+    "email_address": "البريد الإلكتروني",
+    "phone_number": "رقم الهاتف",
+    "optional": "اختياري",
+    "subject": "الموضوع",
+    "select_a_subject": "اختر موضوعًا",
+    "message": "الرسالة",
+    "thank_you_for_contacting_lyce_stelie": "شكرًا لتواصلك مع $t(school.name).",
+    "your_message_has_been_received_and_our": "تم استلام رسالتك وسيرد فريقنا عليك في أقرب وقت ممكن.",
+    "send_message": "إرسال الرسالة",
+    "we_look_forward_to_welcoming_you": "نتطلع إلى استقبالكم.",
+    "visit_lyce_stelie_and_discover_our_community": "زر $t(school.name) وتعرّف على مجتمعنا عن قرب.",
+    "plan_a_visit": "خطط لزيارة",
+    "demoTitle": "اكتمل التحقق التجريبي",
+    "demoText": "اجتازت بياناتك التحقق المحلي. لم تُرسل أي رسالة أو تُحفظ. يرجى استخدام بيانات التواصل المؤكدة للمدرسة للوصول إلى الفريق."
+  },
+  "alumni": {
+    "our_alumni_community": "مجتمع خريجينا",
+    "stay_connected_beyond_graduation": "ابقَ على تواصل بعد التخرج",
+    "we_want_to_reconnect_generations_of_lyce": "نسعى إلى جمع أجيال من خريجي $t(school.name) وبناء مجتمع يتيح لهم اللقاء والمساهمة والإرشاد وخلق الفرص.",
+    "reconnect": "تواصل من جديد",
+    "reconnect_with_classmates_and_former_school_friends": "تواصل مجددًا مع زملاء الصف وأصدقاء المدرسة.",
+    "events_reunions": "الفعاليات واللقاءات",
+    "receive_updates_about_reunions_gatherings_and_alumni": "تلقَّ مستجدات اللقاءات والتجمعات وأنشطة الخريجين.",
+    "mentorship": "الإرشاد",
+    "support_current_students_by_sharing_your_knowledge": "ادعم الطلاب الحاليين بمشاركة معرفتك وخبرتك.",
+    "career_network": "الشبكة المهنية",
+    "share_jobs_internships_and_professional_opportunities": "شارك فرص العمل والتدريب والفرص المهنية.",
+    "alumni_registration": "تسجيل الخريجين",
+    "join_the_alumni_network": "انضم إلى شبكة الخريجين",
+    "help_us_rebuild_and_strengthen_the_lyce": "ساعدنا في إعادة بناء مجتمع خريجي $t(school.name) وتعزيزه بإخبارنا عن مسارك في الحياة.",
+    "personal_information": "المعلومات الشخصية",
+    "first_name": "الاسم الأول",
+    "last_name": "اسم العائلة",
+    "graduation_year": "سنة التخرج",
+    "example_2012": "مثال: 2012",
+    "contact_information": "معلومات التواصل",
+    "email_address": "البريد الإلكتروني",
+    "phone_number": "رقم الهاتف",
+    "preferred_contact_method": "وسيلة التواصل المفضلة",
+    "email": "البريد الإلكتروني",
+    "phone": "الهاتف",
+    "whatsapp": "واتساب",
+    "where_are_you_now": "أين تقيم الآن؟",
+    "current_country": "بلد الإقامة الحالي",
+    "example_lebanon": "مثال: لبنان",
+    "current_city": "مدينة الإقامة الحالية",
+    "example_saida": "مثال: صيدا",
+    "education_after_saintelie": "التعليم بعد مار الياس",
+    "university_institution": "الجامعة / المؤسسة",
+    "example_notre_dame_university": "مثال: جامعة سيدة اللويزة",
+    "degree_field_of_study": "الشهادة / مجال الدراسة",
+    "example_computer_engineering": "مثال: هندسة الحاسوب",
+    "professional_information": "المعلومات المهنية",
+    "profession_industry": "المهنة / القطاع",
+    "example_engineering": "مثال: الهندسة",
+    "current_job_title": "المسمى الوظيفي الحالي",
+    "example_software_engineer": "مثال: مهندس برمجيات",
+    "company_organization": "الشركة / المؤسسة",
+    "company_name": "اسم الشركة",
+    "linkedin_profile": "ملف LinkedIn",
+    "stay_involved": "ابقَ مشاركًا",
+    "select_any_activities_you_would_be_interested": "اختر الأنشطة التي تهمك.",
+    "receive_alumni_news_and_newsletters": "تلقي أخبار الخريجين والنشرات الإخبارية",
+    "attend_reunions_and_alumni_events": "حضور لقاءات الخريجين وفعالياتهم",
+    "mentor_current_lyce_saintelie_students": "إرشاد طلاب $t(school.name) الحاليين",
+    "share_jobs_or_internship_opportunities": "مشاركة فرص العمل أو التدريب",
+    "volunteer_for_school_or_alumni_initiatives": "التطوع في مبادرات المدرسة أو الخريجين",
+    "tell_us_about_your_journey": "أخبرنا عن رحلتك",
+    "share_anything_you_would_like_us_to": "شاركنا ما تود إخبارنا به عن رحلتك بعد $t(school.name)...",
+    "your_privacy_matters": "خصوصيتك تهمنا",
+    "your_contact_information_will_be_used_only": "ستُستخدم معلومات التواصل الخاصة بك فقط للتواصل مع خريجي $t(school.name) والأنشطة المجتمعية. ولن تُعرض معلوماتك الخاصة علنًا دون إذنك.",
+    "welcome_to_the_alumni_network": "أهلًا بك في شبكة الخريجين!",
+    "your_information_has_been_saved_successfully_thank": "حُفظت معلوماتك بنجاح. شكرًا لتواصلك مجددًا مع $t(school.name).",
+    "saving_your_profile": "جارٍ حفظ ملفك...",
+    "help_us_reconnect_our_community": "ساعدنا في إعادة التواصل بين أفراد مجتمعنا.",
+    "know_a_former_classmate_who_has_lost": "هل تعرف زميلًا سابقًا انقطع تواصله مع المدرسة؟ شاركه شبكة الخريجين وساعدنا على جمع أجيال من خريجي مار الياس.",
+    "update_your_alumni_profile": "حدّث ملفك في شبكة الخريجين"
+  },
+  "pages": {
+    "this_page_is_ready_for_its_final": "هذه الصفحة جاهزة لإضافة محتوى المدرسة النهائي.",
+    "back_to_home": "العودة إلى الرئيسية"
+  },
+  "routes": {
+    "academics": "التعليم",
+    "learning_at_every_stage": "التعلم في كل مرحلة",
+    "explore_the_academic_journey_programs_and_learning": "اكتشف المسار الأكاديمي والبرامج وتجارب التعلم في $t(school.name).",
+    "student_life": "الحياة المدرسية",
+    "discover_participate_belong": "اكتشف. شارك. انتمِ.",
+    "discover_the_activities_experiences_and_relationships_that": "اكتشف الأنشطة والتجارب والعلاقات التي تشكل الحياة المدرسية في $t(school.name).",
+    "admissions": "القبول والتسجيل",
+    "begin_your_stelie_journey": "ابدأ رحلتك في مار الياس",
+    "find_the_information_your_family_needs_to": "اعثر على المعلومات التي تحتاجها عائلتك لبدء إجراءات القبول في $t(school.name).",
+    "news_events": "الأخبار والفعاليات",
+    "life_at_lyce_saintelie": "الحياة في $t(school.name)",
+    "follow_school_news_achievements_activities_and_upcoming": "تابع أخبار المدرسة وإنجازاتها وأنشطتها والفعاليات المجتمعية القادمة."
+  },
+  "validation": {
+    "name": "يرجى إدخال اسمك الكامل.",
+    "emailRequired": "يرجى إدخال بريدك الإلكتروني.",
+    "emailInvalid": "يرجى إدخال بريد إلكتروني صالح.",
+    "subject": "يرجى اختيار موضوع.",
+    "message": "يرجى إدخال رسالتك.",
+    "year": "يرجى إدخال سنة تخرج صالحة.",
+    "names": "يرجى إدخال اسمك الأول واسم العائلة.",
+    "save": "تعذر حفظ ملفك. يرجى المحاولة مجددًا.",
+    "url": "يرجى إدخال رابط صالح.",
+    "unavailable": "التسجيل غير متصل بالخدمة بعد. لم تُرسل معلوماتك أو تُحفظ. يرجى التواصل مع المدرسة."
+  },
+  "common": {
+    "bookVisit": "اطلب زيارة",
+    "contactAdmissions": "تواصل مع قسم القبول",
+    "draft": "محتوى مؤقت قابل للتعديل · بانتظار تأكيد المدرسة",
+    "schoolPhoto": "مشهد من $t(school.name)",
+    "schoolPhotoNumber": "$t(school.name) — صورة من المدرسة {{number}}",
+    "skip": "انتقل إلى المحتوى الرئيسي",
+    "statisticsNote": "أرقام نموذجية موجودة سابقًا — إحصاءات المدرسة الرسمية بحاجة إلى تأكيد.",
+    "principalPreview": "كلمة مديرنا",
+    "readMessage": "اقرأ الكلمة كاملة",
+    "whySchool": "لماذا $t(school.name)",
+    "pauseSlideshow": "إيقاف العرض مؤقتًا",
+    "resumeSlideshow": "استئناف العرض",
+    "principalExcerpt": "رسالتنا توفير بيئة تحفز الطلاب وتدعمهم وتحترمهم وتلهمهم كل يوم."
+  },
+  "academicsPage": {
+    "title": "التميز الأكاديمي",
+    "subtitle": "إلهام الفضول والتفكير النقدي والثقة والتعلم مدى الحياة.",
+    "approach": {
+      "title": "نهجنا التعليمي",
+      "text": "يجمع التعلم بين المعرفة والفضول والنمو الشخصي. تقدم هذه النظرة العامة مسار التعلم، ويمكن لفريقنا شرح البرامج المعتمدة والنهج التعليمي المناسب لطفلك."
+    },
+    "placeholder": "نظرة عامة قابلة للتعديل: يجب أن تؤكد المدرسة أسماء المراحل والمواد ولغات التدريس وخدمات الدعم. هذا ليس بيانًا رسميًا للمنهج.",
+    "cycles": "المراحل والبرامج التعليمية",
+    "areas": "مجالات التعلم",
+    "languages": {
+      "title": "اللغات",
+      "text": "مساحة لبرامج اللغات ولغات التدريس وفرص تعلم اللغات التي تعتمدها المدرسة. تواصل مع الفريق الأكاديمي للحصول على التفاصيل الحالية."
+    },
+    "science": {
+      "title": "العلوم والتكنولوجيا",
+      "text": "استكشف التساؤلات والملاحظة وحل المشكلات. ستضيف المدرسة هنا معلومات مؤكدة عن مواد العلوم والتعلم التقني والمرافق المتاحة."
+    },
+    "arts": {
+      "title": "الفنون",
+      "text": "مساحة لعرض التعلم الإبداعي والتعبير الفني. ستضيف المدرسة المواد الفنية وورش العمل وأعمال الطلاب المؤكدة."
+    },
+    "support": {
+      "title": "دعم الطلاب",
+      "text": "لكل متعلم أسئلته واحتياجاته الفردية. تحدث مع المدرسة عن الدعم المتاح حاليًا؛ لا تزال الخدمات المتخصصة وترتيباتها بحاجة إلى تأكيد."
+    },
+    "achievements": {
+      "title": "الإنجازات الأكاديمية",
+      "text": "ستظهر النتائج والإنجازات الموثقة هنا بعد موافقة المدرسة. يجب إضافة السنة الدراسية والمصدر والسياق قبل نشر أي أرقام أو جوائز."
+    },
+    "cta": {
+      "title": "اكتشف رحلة التعلم",
+      "text": "التقِ بفريقنا واستفسر عن البرامج المناسبة لطفلك."
+    }
+  },
+  "studentLifePage": {
+    "title": "ما وراء الصف",
+    "subtitle": "مساحة لاكتشاف الاهتمامات وبناء الصداقات والمساهمة في المجتمع.",
+    "activities": "الأنشطة",
+    "explore": {
+      "title": "اكتشف. شارك. انتمِ.",
+      "text": "تتشكل الحياة المدرسية من التجارب التي يتشاركها الطلاب. تتيح هذه الصفحة للمدرسة عرض أنشطتها ومشاريعها الإبداعية وفرص المشاركة المؤكدة."
+    },
+    "placeholder": "عرض قابل للتعديل للأنشطة. توافر الأنشطة ومواعيدها وتفاصيل المشاركة وجهات التواصل بانتظار تأكيد المدرسة.",
+    "sports": {
+      "title": "الرياضة",
+      "text": "الحركة والعمل الجماعي والروح الرياضية. أضف هنا الرياضات والمرافق ومعلومات المشاركة المؤكدة."
+    },
+    "arts": {
+      "title": "الفنون والموسيقى",
+      "text": "مساحة للأصوات الإبداعية. أضف المعلومات المعتمدة عن الموسيقى والفنون البصرية والعروض وورش العمل."
+    },
+    "clubs": {
+      "title": "الأندية",
+      "text": "تفتح الاهتمامات المشتركة آفاقًا جديدة. ستُنشر هنا قائمة الأندية ومواعيد اللقاءات وطريقة الانضمام بعد تأكيدها."
+    },
+    "service": {
+      "title": "خدمة المجتمع",
+      "text": "مساحة لعرض مبادرات الخدمة المعتمدة والشركاء المجتمعيين وطرق مشاركة الطلاب بمسؤولية."
+    },
+    "leadership": {
+      "title": "القيادة",
+      "heading": "نتعلم كيف نساهم",
+      "text": "الاستماع والمبادرة ودعم الآخرين جزء من النمو معًا. ستضيف المدرسة هنا فرص القيادة الطلابية ومسؤولياتها المؤكدة."
+    },
+    "events": {
+      "title": "الفعاليات المدرسية",
+      "text": "تجمع الاحتفالات والتجارب المشتركة المجتمع المدرسي. ستُدرج الفعاليات ومواعيدها المؤكدة في صفحة الأخبار والفعاليات."
+    },
+    "gallery": "معرض الحياة الطلابية",
+    "galleryNote": "صور موجودة من المدرسة. تُستبدل بصور أنشطة معتمدة وتعليقات دقيقة قبل النشر.",
+    "cta": {
+      "title": "اختبر مجتمعنا",
+      "text": "اطلب زيارة واستفسر عن الأنشطة الحالية وفرص الطلاب."
+    }
+  },
+  "admissionsPage": {
+    "title": "ابدأ رحلتك في $t(school.name)",
+    "subtitle": "حديث أول وزيارة وفرصة لاكتشاف المدرسة معًا.",
+    "welcome": {
+      "title": "أهلًا بكم في مجتمعنا المدرسي",
+      "text": "يبدأ اختيار المدرسة بأسئلة عائلتك. يمكن لفريقنا توضيح متطلبات القبول المؤكدة ومساعدتك في التخطيط للخطوة التالية."
+    },
+    "placeholder": "مخطط إجراءات قابل للتعديل بانتظار اعتماد المدرسة. لم تُؤكد بعد الرسوم والأعمار والمواعيد والمستندات وسياسات القبول. يرجى التواصل مع المدرسة قبل اتخاذ الترتيبات.",
+    "process": "إجراءات القبول",
+    "steps": {
+      "inquiry": {
+        "title": "الخطوة 1: الاستفسار",
+        "text": "شارك أسئلتك مع المدرسة واستفسر عن الأماكن المتاحة والمتطلبات الحالية."
+      },
+      "visit": {
+        "title": "الخطوة 2: زيارة المدرسة",
+        "text": "اطلب زيارة. لا يُعد الموعد مؤكدًا إلا بعد رد المدرسة على طلبك."
+      },
+      "documents": {
+        "title": "الخطوة 3: تقديم المستندات",
+        "text": "احصل على القائمة الرسمية وتعليمات تقديم المستندات من فريق القبول."
+      },
+      "evaluation": {
+        "title": "الخطوة 4: التقييم / المقابلة",
+        "text": "استفسر عما إذا كان التقييم أو اللقاء مطلوبًا لطفلك. يجب أن تؤكد المدرسة التفاصيل."
+      },
+      "registration": {
+        "title": "الخطوة 5: التسجيل",
+        "text": "أكمل التسجيل بعد تلقي تعليمات المدرسة الرسمية وتأكيدها."
+      }
+    },
+    "documents": {
+      "title": "المستندات المطلوبة",
+      "text": "فئات نموذجية فقط. يجب أن تؤكد المدرسة المستندات المطلوبة وصيغها وطريقة تقديمها.",
+      "identity": "مستندات الهوية — للتأكيد",
+      "records": "السجلات المدرسية السابقة — للتأكيد",
+      "forms": "استمارات التسجيل — تُوفّر لاحقًا"
+    },
+    "faq": "الأسئلة الشائعة",
+    "questions": {
+      "apply": {
+        "question": "كيف نبدأ؟",
+        "answer": "تواصل مع المدرسة للاستفسار عن الأماكن المتاحة والمرحلة المناسبة وإجراءات التقديم المؤكدة."
+      },
+      "documents": {
+        "question": "ما المستندات التي ينبغي تحضيرها؟",
+        "answer": "اطلب القائمة الرسمية من المدرسة. الفئات الواردة في هذه الصفحة مؤقتة وليست قائمة نهائية بالمتطلبات."
+      },
+      "fees": {
+        "question": "أين نجد الرسوم والمواعيد النهائية؟",
+        "answer": "هذه التفاصيل بانتظار التأكيد. ينبغي أن يزودك فريق القبول بالمعلومات الرسمية الحالية مباشرة."
+      },
+      "visit": {
+        "question": "هل يمكننا زيارة المدرسة؟",
+        "answer": "استخدم صفحة التواصل لطلب زيارة. يرجى انتظار تأكيد المدرسة للموعد؛ لا يحجز الموقع المواعيد تلقائيًا."
+      }
+    },
+    "cta": {
+      "title": "لنخطُ الخطوة الأولى معًا",
+      "text": "تحدث مع المدرسة عن طفلك والخطوات التالية لعائلتك."
+    }
+  },
+  "newsPage": {
+    "title": "الأخبار والفعاليات",
+    "subtitle": "قصص وتجارب تعلم ولحظات من مجتمعنا المدرسي.",
+    "placeholder": "محتوى تحريري مؤقت: هذه مساحات لمسودات وليست تقارير عن أحداث أو إنجازات حقيقية. يجب أن توفر المدرسة القصص والتواريخ والصور المعتمدة.",
+    "featured": "القصة الرئيسية",
+    "datePending": "الموعد يُحدد لاحقًا",
+    "events": "الفعاليات القادمة",
+    "latest": "آخر الأخبار",
+    "categories": "تصفية الأخبار حسب الفئة",
+    "categoriesList": {
+      "all": "الكل",
+      "school": "الحياة المدرسية",
+      "learning": "التعلم",
+      "community": "المجتمع"
+    },
+    "results": "القصص المعروضة: {{count}}",
+    "stories": {
+      "schoolLife": {
+        "title": "نافذة على الحياة المدرسية",
+        "text": "مساحة لموضوع معتمد عن الحياة اليومية في المدرسة. أضف القصة وأسماء المساهمين والصور المعتمدة قبل النشر."
+      },
+      "learning": {
+        "title": "التعلم تحت الضوء",
+        "text": "مساحة لمشروع صفي موثق أو قصة تعلم. ستوفر المدرسة تفاصيل المشروع وتاريخ النشر."
+      },
+      "community": {
+        "title": "روابط المجتمع",
+        "text": "مساحة لخبر معتمد عن المجتمع أو الخريجين. أضف المعلومات المؤكدة وبيانات التواصل عند توفرها."
+      }
+    },
+    "eventsList": {
+      "visit": {
+        "title": "زيارة المدرسة — فعالية مقترحة",
+        "text": "مساحة لفعالية مقترحة. يجب أن تؤكد المدرسة الموعد والتوافر وترتيبات الزيارة."
+      },
+      "gathering": {
+        "title": "لقاء المجتمع — فعالية مقترحة",
+        "text": "مساحة للقاء مجتمعي مقترح. لا يوجد لقاء مجدول قبل تأكيد المدرسة للتفاصيل."
+      }
+    }
+  },
+  "seo": {
+    "home": {
+      "title": "$t(school.name) | درب السيم – صيدا",
+      "description": "اكتشف $t(school.name) في درب السيم، صيدا: التعليم والحياة المدرسية والقبول ومجتمع الخريجين."
+    },
+    "about": {
+      "title": "عن المدرسة | $t(school.name)",
+      "description": "تعرّف على قصتنا وقيمنا وقيادتنا ومجتمعنا المدرسي."
+    },
+    "academics": {
+      "title": "التعليم | $t(school.name)",
+      "description": "اكتشف نهجنا التعليمي ومراحل الدراسة. تواصل مع المدرسة لمعرفة تفاصيل المنهج المعتمد."
+    },
+    "studentLife": {
+      "title": "الحياة المدرسية | $t(school.name)",
+      "description": "اكتشف الأنشطة والفنون والرياضة والقيادة والحياة المجتمعية."
+    },
+    "admissions": {
+      "title": "القبول والتسجيل | $t(school.name)",
+      "description": "استفسر عن القبول واطلب زيارة وتعرّف على الخطوات التالية."
+    },
+    "alumni": {
+      "title": "الخريجون | $t(school.name)",
+      "description": "تواصل مجددًا مع $t(school.name) وانضم إلى شبكة الخريجين."
+    },
+    "news": {
+      "title": "الأخبار والفعاليات | $t(school.name)",
+      "description": "أخبار المدرسة وفعالياتها، مع إضافة التواريخ والقصص المؤكدة من المدرسة."
+    },
+    "contact": {
+      "title": "تواصل معنا | $t(school.name)",
+      "description": "تواصل مع $t(school.name) واعثر على موقعنا واستفسر عن الزيارات والقبول والحياة المدرسية."
+    }
+  },
+  "newsUI": {
+    "back": "العودة إلى الأخبار",
+    "gallery": "معرض صور المقال",
+    "galleryImage": "{{title}} — الصورة {{number}}",
+    "related": "أخبار ذات صلة",
+    "notFound": "المقال غير موجود",
+    "notFoundText": "هذا المقال غير متاح. تصفح آخر الأخبار للاطلاع على مقالات أخرى.",
+    "imagePending": "صورة المقال تُضاف قريبًا",
+    "empty": "ستظهر الأخبار هنا عند توفرها.",
+    "carousel": "عرض شرائح",
+    "featuredNews": "أبرز أخبار المدرسة",
+    "controls": "عناصر التحكم بعرض الأخبار"
+  }
+}

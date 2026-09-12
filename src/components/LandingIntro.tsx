@@ -1,24 +1,26 @@
+import { useTranslation } from 'react-i18next'
 import { useEffect, useState, type CSSProperties } from 'react'
 
 import Hero from './Hero'
+import { useReducedMotion } from '../lib/motion'
 
 type IntroPhase = 'start' | 'merging' | 'merged' | 'fading' | 'revealing' | 'done'
 
 // All coordinates share this 3:2 wrapper. Adjust crossFinal to fine-tune assembly.
-const LOGO_LAYOUT = {
-  rest: { x: '0%', y: '0%', width: '100%' },
-  crossFinal: { x: '45%', y: '-7%', width: '32%' },
-  desktop: {
-    stage: { right: '4vw', top: '8vh', width: 'min(58vw, 52rem)' },
-    crossStart: { x: '-38vw', y: '8vh', rotation: '-3deg', scale: '0.92' },
-    restStart: { x: '6vw', y: '1.2vh' },
-  },
-  mobile: {
-    stage: { right: '3vw', top: '9vh', width: '94vw' },
-    crossStart: { x: '-30vw', y: '-7vh' },
-    restStart: { x: '4vw' },
-  },
-} as const
+  const LOGO_LAYOUT = {
+    rest: { x: '0%', y: '0%', width: '100%' },
+    crossFinal: { x: '45%', y: '-7%', width: '32%' },
+    desktop: {
+      stage: { right: '4vw', top: '8vh', width: 'min(58vw, 52rem)' },
+      crossStart: { x: '-38vw', y: '8vh', rotation: '-3deg', scale: '0.92' },
+      restStart: { x: '6vw', y: '1.2vh' },
+    },
+    mobile: {
+      stage: { right: '3vw', top: '9vh', width: '94vw' },
+      crossStart: { x: '-30vw', y: '-7vh' },
+      restStart: { x: '4vw' },
+    },
+  } as const
 
 type IntroStyle = CSSProperties & Record<`--${string}`, string>
 
@@ -41,15 +43,16 @@ const introStyle: IntroStyle = {
 }
 
 function LandingIntro() {
-  const [phase, setPhase] = useState<IntroPhase>('start')
+  const { t } = useTranslation()
+
+  const reducedMotion = useReducedMotion()
+  const [phase, setPhase] = useState<IntroPhase>(() => window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'done' : 'start')
   const [showTitle, setShowTitle] = useState(false)
   const animationStarted = phase !== 'start'
 
   useEffect(() => {
-    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-    const timings = reducedMotion
-      ? { merging: 100, merged: 100, fading: 600, revealing: 750, done: 1000 }
-      : { merging: 200, merged: 1900, fading: 2400, revealing: 2550, done: 2800 }
+    if (reducedMotion) return
+    const timings = { merging: 200, merged: 1900, fading: 2400, revealing: 2550, done: 2800 }
 
     // Change this one value to fine-tune the independent title reveal.
     const titleTimer = window.setTimeout(() => setShowTitle(true), 450)
@@ -62,13 +65,13 @@ function LandingIntro() {
       window.clearTimeout(titleTimer)
       timers.forEach(window.clearTimeout)
     }
-  }, [])
+  }, [reducedMotion])
 
   useEffect(() => {
-    const revealSite = phase === 'revealing' || phase === 'done'
+    const revealSite = reducedMotion || phase === 'revealing' || phase === 'done'
     document.documentElement.toggleAttribute('data-intro-revealing', revealSite)
-    document.documentElement.toggleAttribute('data-intro-complete', phase === 'done')
-  }, [phase])
+    document.documentElement.toggleAttribute('data-intro-complete', reducedMotion || phase === 'done')
+  }, [phase, reducedMotion])
 
   useEffect(
     () => () => {
@@ -79,20 +82,19 @@ function LandingIntro() {
   )
 
   return (
-    <section className="landing-intro" style={introStyle} aria-label="Lycée Saint-Elie introduction">
+    <section className="landing-intro" style={introStyle} aria-label={t('home.intro.lyce_saintelie_introduction')}>
       <div className="landing-intro__site">
         <Hero />
       </div>
 
-      {phase !== 'done' && (
-        <div className={`landing-intro__sequence landing-intro__sequence--${phase}${animationStarted ? ' landing-intro__sequence--active' : ''}`}>
+      {!reducedMotion && phase !== 'done' && (
+        <div aria-hidden="true" className={`landing-intro__sequence landing-intro__sequence--${phase}${animationStarted ? ' landing-intro__sequence--active' : ''}`}>
           <div className="landing-intro__overlay" />
 
           <div className={`landing-intro__title${showTitle ? ' landing-intro__title--visible' : ''}`}>
-            <h1>
-              Rooted in Faith,
-              <span>Sailing Toward the Future.</span>
-            </h1>
+            <p>
+              {t('home.intro.rooted_in_faith')}<span>{t('home.intro.sailing_toward_the_future')}</span>
+            </p>
           </div>
 
           <div className="logo-animation">
@@ -112,7 +114,7 @@ function LandingIntro() {
                 draggable={false}
               />
             </div>
-            <span className="sr-only">Lycée Saint-Elie</span>
+            <span className="sr-only">{t('school.name')}</span>
           </div>
         </div>
       )}

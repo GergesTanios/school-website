@@ -114,7 +114,7 @@ text-shadow:
   transform: translateY(0);
 }
 
-.landing-intro__title h1 {
+.landing-intro__title p {
   max-width: 900px;
   margin: 0;
   color: white;
@@ -124,7 +124,7 @@ text-shadow:
   letter-spacing: -0.04em;
 }
 
-.landing-intro__title h1 span {
+.landing-intro__title p span {
   display: block;
   color: var(--color-school-gold);
 }
@@ -196,6 +196,7 @@ text-shadow:
 }
 
 .intro-navigation {
+  visibility: hidden;
   opacity: 0;
   transform: translate3d(0, -15px, 0);
   pointer-events: none;
@@ -212,6 +213,7 @@ text-shadow:
 }
 
 html[data-intro-revealing] .intro-navigation {
+  visibility: visible;
   opacity: 1;
   transform: translate3d(0, 0, 0);
   pointer-events: auto;
@@ -253,7 +255,7 @@ html[data-intro-revealing] .hero-reveal-content {
     bottom: clamp(8rem, 24vh, 12rem);
   }
 
-  .landing-intro__title h1 {
+  .landing-intro__title p {
     font-size: clamp(2.2rem, 10vw, 3.5rem);
   }
 }
@@ -275,4 +277,129 @@ html[data-intro-revealing] .hero-reveal-content {
     transform: none;
     transition: none;
   }
+}
+
+/* Inherit direction across routes while leaving the logo artwork untouched. */
+html[lang='ar'] body {
+  font-family: "Cairo", "Noto Sans Arabic", Tahoma, Arial, system-ui, sans-serif;
+}
+
+html[lang='ar'] :is(h1, h2, h3, p, a, button, label) {
+  letter-spacing: normal;
+}
+
+html[lang='ar'] :is(h1, h2, h3) {
+  line-height: 1.35;
+}
+
+input:is([type='email'], [type='tel'], [type='url']), a[href^='mailto:'], a[href^='tel:'] {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+input[type='tel']::placeholder {
+  text-align: start;
+}
+
+:where(h1, h2, h3, p, a, button, label) {
+  overflow-wrap: break-word;
+}
+
+:where(.grid > *, .flex > *) {
+  min-width: 0;
+}
+
+html[dir='rtl'] .landing-intro__title {
+  left: auto;
+  right: 5vw;
+}
+
+/* The completed hero may grow to accommodate translated copy on short screens. */
+html[data-intro-complete] .landing-intro {
+  height: auto;
+  min-height: 100vh;
+}
+
+html[data-intro-complete] .landing-intro__site {
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  html[dir='rtl'] .landing-intro__title {
+    left: 6vw;
+    right: 6vw;
+  }
+}
+
+:where(a, button, input, select, textarea, summary):focus-visible {
+  outline: 3px solid var(--color-school-gold);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 5px var(--color-school-navy-dark);
+}
+
+:where(main, section, article, form)[id] { scroll-margin-top: 7rem; }
+
+.skip-link {
+  position: fixed;
+  top: 1rem;
+  inset-inline-start: 1rem;
+  z-index: 100;
+  transform: translateY(-200%);
+  border-radius: 0.75rem;
+  background: var(--color-school-navy-dark);
+  color: white;
+  padding: 0.8rem 1.2rem;
+}
+.skip-link:focus { transform: translateY(0); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+html[lang="ar"] .landing-intro__title p { line-height: 1.35; }
+
+/* Article direction follows its source language independently of the UI language. */
+.news-copy[lang='ar'] {
+  font-family: "Cairo", "Noto Sans Arabic", Tahoma, Arial, system-ui, sans-serif;
+  letter-spacing: normal;
+}
+.news-copy[lang='ar'] :is(h1, h2, h3) { line-height: 1.4; letter-spacing: normal; }
+.hero-news-overlay {
+  background: linear-gradient(90deg, rgba(3,45,89,.92), rgba(3,45,89,.72) 60%, rgba(3,45,89,.35));
+}
+.hero-news-overlay--rtl {
+  background: linear-gradient(270deg, rgba(3,45,89,.92), rgba(3,45,89,.72) 60%, rgba(3,45,89,.35));
+}
+@keyframes heroNewsZoom {
+  from { transform: scale(1); }
+  to { transform: scale(1.06); }
+}
+@keyframes heroNewsEnter {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes heroNewsExit {
+  from { opacity: var(--fade-from, 1); }
+  to { opacity: 0; }
+}
+.hero-news-image { animation: heroNewsZoom 3000ms linear forwards; will-change: transform; }
+.hero-news-enter { animation: heroNewsEnter 600ms ease-out both; }
+.hero-news-outgoing { animation: heroNewsExit 600ms ease-out both; }
+/* Keep the crossfade under reduced motion; only the spatial zoom is disabled. */
+@media (prefers-reduced-motion: reduce) {
+  .hero-news-image { animation: none !important; transform: none; }
+  .hero-news-enter, .hero-news-outgoing { animation-duration: 600ms !important; }
+}
+
+/* Override the intro wrapper’s generic section minimum once the news Hero is shown. */
+.landing-intro__site > .hero-news { min-height: 100svh; }
+
+/* Reserve room for longer article titles on short phones, avoiding slide height jumps. */
+@media (max-width: 767px) {
+  .landing-intro__site > .hero-news { min-height: max(100svh, 46rem); }
 }
